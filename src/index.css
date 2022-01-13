@@ -180,11 +180,11 @@ nav {
 }
 
 #Conatiner {
-  @apply bg-descriptionBack w-8/12 h-4/6 rounded-lg mt-10  overflow-hidden;
+  @apply bg-descriptionBack w-full md:w-11/12 lg:w-10/12 xl:w-9/12 2xl:w-8/12 h-4/6 rounded-lg mt-10  overflow-hidden;
 }
 
 #formForecast {
-  @apply flex m-10 text-right text-3xl text-zinc-600 items-center;
+  @apply w-full flex my-10 sm:m-10 text-left text-xl  md:text-2xl xl:text-3xl text-zinc-600 items-center;
 }
 
 #svgSearch {
@@ -192,7 +192,7 @@ nav {
 }
 
 #forecastInput {
-  @apply bg-zinc-200 p-2 rounded-lg border-b-2 border-zinc-500 ml-16 mr-5;
+  @apply bg-zinc-200 p-2 rounded-lg border-b-2 border-zinc-500 ml-4 md:ml-16 mr-5;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -202,13 +202,13 @@ nav {
 }
 
 #dataTable {
-  @apply w-full flex items-center justify-center mt-36;
+  @apply w-full flex items-center justify-center mt-24 md:mt-36;
 }
 
 table,
 th,
 td {
-  @apply border-2 border-zinc-500 border-collapse p-5 text-2xl text-zinc-700 text-center;
+  @apply border-2 border-zinc-500 border-collapse p-5 text-lg md:text-xl xl:text-2xl text-zinc-700 text-center;
 }
 
 table {
